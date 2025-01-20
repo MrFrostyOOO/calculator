@@ -79,6 +79,14 @@ button:active{
     #calculatorBody {
         width: 90%
     }
+    
+    #secDisplay{
+        font-size: 1.5rem;
+    }
+
+    #display {
+        font-size: 2rem;
+    }
 
     button{
     width: 70px;
