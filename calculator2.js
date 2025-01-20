@@ -22,7 +22,7 @@ function clearDisplay(){
 
 function calculate(){
     try{
-        if(display.value != "Math Error" || display.value != "Syntax Error"){
+        if(display.value != "Math Error" && display.value != "Syntax Error"){
             let result = eval(display.value);
             secDisplay.value = display.value;
 
