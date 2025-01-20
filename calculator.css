@@ -47,6 +47,7 @@ body{
     gap: 4px;
     padding: 20px;
 }
+
 button{
     width: 80px;
     height: 80px;
@@ -74,17 +75,9 @@ button:active{
     background-color: #ffa703;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) { 
     #calculatorBody {
-        width: 100%;
-        padding: 15px;
-    }
-
-    button {
-        font-size: 1em;
-        padding: 15px;
-    }
-    #secDisplay, #display {
-        font-size: 1.2em;
+        width: 90%
     }
 }
+    */
