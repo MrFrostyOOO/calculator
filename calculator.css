@@ -60,20 +60,28 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    background-color:  hsl(0, 0%,40%);
+.fKey{
+    background-color: rgb(216, 140, 0);
 }
+
+@media screen and (min-width:500px){
+    .fKey:hover{
+        background-color: #ffa600;
+    }
+    
+    button:hover{
+        background-color:  hsl(0, 0%,40%);
+    }
+}
+
 button:active{
     background-color:  hsl(0, 0%,65%);
 }
 
-.fKey{
-    background-color: rgb(204, 135, 6);
+.fKey:active{
+    background-color: #ffc353;
 }
 
-.fKey:hover{
-    background-color: #ffa703;
-}
 
 @media screen and (max-width: 500px) { 
     #calculatorBody {
