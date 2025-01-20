@@ -75,9 +75,14 @@ button:active{
     background-color: #ffa703;
 }
 
-/* @media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) { 
     #calculatorBody {
         width: 90%
     }
+
+    button{
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
+    }
 }
-    */
