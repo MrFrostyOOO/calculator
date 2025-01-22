@@ -8,7 +8,8 @@ function takeInput(input) {
   if (display.value == "Math Error" || display.value == "Syntax Error") {
     bufferInput= "";
     display.value = "";
-  }else if(display.value.length < 15) {
+  }
+  if(display.value.length < 15) {
     bufferInput += input;
     display.value = bufferInput.replace(/\*\*/g, "^");
   }
@@ -30,7 +31,7 @@ function clearDisplay() {
 
 function calculate() {
   try {
-    if (/\/\/|\*\//.test(display.value)) { //checking for syntax error that do not occur with eval function
+    if (/\/\/|\*\//.test(bufferInput)) { //checking for syntax error that do not occur with eval function
       display.value = "Syntax Error";
     } else if (
       display.value != "Math Error" &&  //checking that the expression can proceed further
