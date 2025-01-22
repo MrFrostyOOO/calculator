@@ -45,8 +45,10 @@ function calculate() {
       } else if (display.value != "") { //checking that the expression is not just empty string
         result = result.toString();
         if (result.includes(".")) { //checking if the answer is a floating value or not
-          display.value = parseFloat(result).toFixed(2); //shortning the answer and displaying if float
+          bufferInput = parseFloat(result).toFixed(2); //shortning the answer and displaying if float
+          display.value = bufferInput;
         } else {
+          bufferInput = result;
           display.value = result; //displaying the answer if integer
         }
       }
