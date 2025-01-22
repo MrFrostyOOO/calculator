@@ -32,7 +32,7 @@ function calculate() {
       display.value != "Syntax Error"
     ) {
       let result = eval(display.value);
-      secDisplay.value = display.value;
+      secDisplay.value = display.value+" = "eval(display.value);
 
       if (isNaN(result) && display.value != "") {
         display.value = "Math Error";
