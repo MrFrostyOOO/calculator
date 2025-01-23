@@ -64,7 +64,7 @@ button{
     background-color: rgb(216, 140, 0);
 }
 
-@media screen and (min-width:500px){
+@media screen and (pointer: fine){
     .fKey:hover{
         background-color: #ffa600;
     }
@@ -83,7 +83,7 @@ button:active{
 }
 
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px){ 
     #calculatorBody {
         width: 90%
     }
@@ -97,8 +97,8 @@ button:active{
     }
 
     button{
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
     }
 }
